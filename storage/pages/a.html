@@ -2,24 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title><a></title>
 </head>
 <body>
 <h1>This is tag < a > and his property</h1>
-<br>
+
 <!-- href -->
-<h3>href</h3>
-<p><a href="https://htmlbook.ru/html/a" title="Lets check info about tag!" target="_blank">Info about tag</a></p>
-<!-- download  -->
-<h3>download</h3>
-<p><a href="../files/tests/test-download.js" download>There file for download</a></p>
-<!-- rel -->
-<h3>rel</h3>
-<a href="empty-page.html" rel="help">Rel "search"</a>
-<br><br>
-<!-- shape Supports only on Opera or Firefox-->
-<h3>shape (Firefox or Opera only)</h3>
 <div>
+    <h3>href</h3>
+    <p><a href="https://htmlbook.ru/html/a" title="Lets check info about tag!" target="_blank">Info about tag</a></p>
+</div>
+
+<!-- download  -->
+<div>
+    <h3>download</h3>
+    <p><a href="../files/tests/test-download.js" download>There file for download</a></p>
+</div>
+
+<!-- rel -->
+<div>
+    <h3>rel</h3>
+    <a href="empty-page.html" rel="help">Rel "search"</a>
+</div>
+
+<!-- shape Supports only on Opera or Firefox-->
+<div>
+    <h3>shape (Firefox or Opera only)</h3>
     <object type="image/jpeg" data="../files/images/fonstola.ru_100505.jpg"
              width="650" height="434" usemap="#link">
     <map id="link">
@@ -28,9 +36,10 @@
     </map>
     </object>
 </div>
+
 <!-- tabindex -->
-<h3>tabindex</h3>
 <div>
+    <h3>tabindex</h3>
     <table>
         <tr>
             <td>
@@ -44,32 +53,39 @@
         </tr>
     </table>
 </div>
+
 <!-- target -->
-<h3>target</h3>
 <div>
+    <h3>target</h3>
     <p><a href='empty-page.html' target="_blank">_blank (new window)</a></p>
     <p><a href='empty-page.html' target="_self">_self (new url, current window)</a></p>
     <p><a href='empty-page.html' target="_parent">_parent (Loads the page into the parent frame, if there are no frames, then this value works as _self.)</a></p>
     <p><a href='empty-page.html' target="_top">_top (Cancels all frames and loads the page in the full browser window, if there are no frames, then this value works as _self)</a></p>
 </div>
+
 <!-- title -->
-<h3>title</h3>
 <div>
+    <h3>title</h3>
     <a href="empty-page.html" title="Hello im title">Point at me</a>
 </div>
+
 <!-- type -->
-<h3>type</h3>
 <div>
+    <h3>type</h3>
     <p><a href="../files/tests/test-download.js" type="js">Java script file</a></p>
     <p><a href="../styles/main-styles.css" type="css">CSS file</a></p>
     <p><a href="./styles/main-styles.mp4" type="video/mp4">Video file</a></p>
     <p><a href="./files/files/test-download.js" type="js">Java script file</a></p>
 </div>
+
 <!-- name -->
-<h3>name</h3>
-<p><a name="top"></a></p>
-<p style="height:1000px;">Здесь много-много текста.
-    Прокручивай его вниз. </p>
-<p><a href="#top">Наверх</a></p>
+<div>
+    <h3>name</h3>
+    <p><a name="top"></a></p>
+    <p style="height:1000px;">Здесь много-много текста.
+        Прокручивай его вниз. </p>
+    <p><a href="#top">Наверх</a></p>
+</div>
+
 </body>
 </html>
